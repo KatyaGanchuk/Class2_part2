@@ -1,0 +1,50 @@
+#include <iostream>
+#include <math.h> 
+using namespace std;
+int main() {
+int n;
+float const p=3.14;
+float x,R,D,L,S;
+  cout << "Imput n";
+cin>>n;
+cout << "Imput x";
+cin>>x;
+switch(n){
+case 1:
+x=R;
+D=2*R;
+L=2*3.14*R;
+S=3.14 * (R*R);
+cout<<"D="<<D<<endl;
+cout<<"L="<<L<<endl;
+cout<<"S="<<S<<endl;
+ break;
+case 2:
+R=x/2;
+D=x;
+L=2*3.14*R;
+S=3.14*(R*R);
+cout<<"R="<<R<<endl;
+cout<<"L="<<L<<endl;
+cout<<"S="<<S<<endl;
+break;
+case 3:
+R=x/ 2*3.14;
+D=2*R;
+L=x;
+S=3.14*(R*R);
+cout<<"R="<<R<<endl;
+cout<<"D="<<D<<endl;
+cout<<"S="<<S<<endl; 
+break;
+case 4:
+R=sqrt (x/3.14);
+D=2*R;
+L=2*3.14*R;
+S=x;
+cout<<"R="<<R<<endl;
+cout<<"D="<<D<<endl;
+cout<<"L="<<L<<endl; 
+break;
+}
+}
