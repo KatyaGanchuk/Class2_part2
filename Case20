@@ -1,0 +1,86 @@
+#include <iostream>
+using namespace std;
+int main() {
+int d, m;
+    cout << "Imput day";
+    cin>>d;
+ 
+    cout << "Imput month";
+    cin>>m;
+ 
+    switch (m) {
+    case 1:
+        if (d > 19)
+            cout << "Aquarius";
+        else 
+            cout << "Capricorn";
+        break;
+    case 2:
+        if (d > 18) 
+            cout << "Fish";
+        else 
+            cout << "Aquarius";
+        break;
+    case 3:
+        if (d > 20) 
+            cout << "Aries";
+        else  
+            cout << "Fish";
+        break;
+    case 4:
+        if (d > 19) 
+            cout << "Taurus";
+        else  
+            cout << "Aries";
+        break;
+    case 5:
+        if (d > 20) 
+            cout << "Twins";
+        else  
+            cout << "Taurus";
+        break;
+    case 6:
+        if (d > 21)
+            cout << "Cancer";
+        else 
+            cout << "Twins";
+        break;
+    case 7:
+        if (d > 22) 
+            cout << "lion";
+        else 
+            cout << "Cancer";
+        break;
+    case 8:
+        if (d > 22) 
+            cout << "Virgo";
+        else 
+            cout << "lion";
+        break;
+    case 9:
+        if (d > 22) 
+            cout << "Scales";
+        else 
+            cout << "Virgo";
+        break;
+    case 10:
+        if (d > 22) 
+            cout << "Scorpion";
+        else 
+            cout << "Scales";
+        break;
+    case 11:
+        if (d > 22)
+            cout << "Sagittarius";
+        else 
+            cout << "Scorpion";
+        break;
+    case 12:
+        if (d > 21)
+            cout << "Capricorn";
+        else 
+            cout << "Sagittarius";
+        break;
+    }
+    cout<<endl;
+}
